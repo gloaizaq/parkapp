@@ -25,6 +25,6 @@ public class EmployeeData {
     }
     
     public static void prueba() {
-        //TODO por impletar.
+        System.out.println("Gustavo es un precioso");
     }
 }
