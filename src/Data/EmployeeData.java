@@ -27,4 +27,7 @@ public class EmployeeData {
     public static void prueba() {
         System.out.println("Gustavo es un precioso");
     }
+    public static void comer() {
+        System.out.println("Gustavo es un comelon");
+    }
 }
