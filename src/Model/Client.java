@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parkapp;
+package Model;
 
 /**
  *
  * @author Gustavo Loaiza
  */
-public class Parkapp {
+public class Client {
+    private String plate;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        new GUI.Main().setVisible(true);
+    public String getPlate() {
+        return plate;
     }
-    
+
+    public void setPlate(String plate) {
+        this.plate = plate;
+    }
 }

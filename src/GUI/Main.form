@@ -26,8 +26,8 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="newEmployeeBtn" max="32767" attributes="0"/>
-                  <Component id="newClientBtn" min="-2" pref="113" max="-2" attributes="0"/>
+                  <Component id="newEmployeeBtn" pref="131" max="32767" attributes="0"/>
+                  <Component id="newClientBtn" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -50,11 +50,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Nuevo cliente"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newClientBtnActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="newEmployeeBtn">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nuevo empleado"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeBtnActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

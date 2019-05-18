@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parkapp;
+package Data;
 
 /**
  *
  * @author Gustavo Loaiza
  */
-public class Parkapp {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        new GUI.Main().setVisible(true);
-    }
+public class ClientData {
     
 }
