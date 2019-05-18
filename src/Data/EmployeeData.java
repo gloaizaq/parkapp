@@ -27,8 +27,14 @@ public class EmployeeData {
     public static void prueba() {
         System.out.println("Gustavo es un precioso");
     }
+<<<<<<< HEAD
     public static void correr() {
         System.out.println("Gustavo es un atleta");
     }
     
+=======
+    public static void comer() {
+        System.out.println("Gustavo es un comelon");
+    }
+>>>>>>> jose
 }
